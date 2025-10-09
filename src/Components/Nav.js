@@ -116,12 +116,7 @@ export default function Navbar() {
         </a>
       </nav>
       {/* Floating Book Now on mobile */}
-      <a
-        href="#"
-        className="md:hidden block fixed bottom-6 right-6 bg-[#946b45] text-white px-5 py-3 rounded shadow-lg font-semibold hover:bg-[#805d3b] transition z-40"
-      >
-        BOOK NOW
-      </a>
+     
     </header>
   );
 }

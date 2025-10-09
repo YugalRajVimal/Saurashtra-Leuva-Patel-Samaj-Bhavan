@@ -37,6 +37,12 @@ const rooms = [
     title: "NON AC ROOM with 4 BED",
     price: "Rs.2250",
   },
+  {
+    image: "/room111.avif",
+    title: "GROUP STAY ",
+    price: "Rs.3050",
+  },
+  
 ];
 
 const Rooms = () => {
