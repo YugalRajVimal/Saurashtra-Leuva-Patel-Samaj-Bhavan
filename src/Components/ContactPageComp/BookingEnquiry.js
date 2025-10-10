@@ -1,11 +1,16 @@
 import { useState } from "react";
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaWhatsapp } from "react-icons/fa";
+import {
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaWhatsapp,
+} from "react-icons/fa";
 import { Phone, ArrowUp } from "lucide-react";
 import { useContext } from "react";
 import { MyContext } from "../../store/MyContext";
 
 const BookingEnquiry = () => {
-const { phoneNo } = useContext(MyContext);
+  const { phoneNo } = useContext(MyContext);
 
   const [formData, setFormData] = useState({
     name: "",
@@ -28,7 +33,8 @@ const { phoneNo } = useContext(MyContext);
     const whatsappNumber = phoneNo;
 
     // Build formatted message
-    const message = `*New Room Booking Enquiry*\n\n` +
+    const message =
+      `*New Room Booking Enquiry*\n\n` +
       ` *Full Name:* ${formData.name || "N/A"}\n` +
       ` *Phone Number:* ${formData.phone || "N/A"}\n` +
       ` *Check-in Date:* ${formData.date || "N/A"}\n` +
@@ -46,7 +52,9 @@ const { phoneNo } = useContext(MyContext);
       <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row shadow-lg rounded-xl overflow-hidden mt-8 mb-16 bg-white">
         {/* LEFT: Contact Info */}
         <div className="w-full md:w-1/3 bg-gradient-to-b from-[#7d5227] to-[#5f3e1e] text-white p-8 flex flex-col justify-center">
-          <h2 className="text-3xl font-bold mb-8 text-center md:text-left">Get in Touch</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center md:text-left">
+            Get in Touch
+          </h2>
           <div className="space-y-8">
             {/* Address */}
             <div className="flex items-start gap-5">
@@ -56,7 +64,9 @@ const { phoneNo } = useContext(MyContext);
               <div>
                 <h3 className="font-semibold text-lg mb-1">Office Address</h3>
                 <p className="text-gray-100 text-base leading-relaxed">
-                  Saurashtra Leuva Patel Samaj Bhavan,<br />Dwarka, Gujarat 361335
+                  Saurashtra Leuva Patel Samaj Bhavan,
+                  <br />
+                  Dwarka, Gujarat 361335
                 </p>
               </div>
             </div>

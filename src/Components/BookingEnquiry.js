@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { MyContext } from "../store/MyContext";
 
 export default function BookingEnquiry() {
-const { phoneNo } = useContext(MyContext);
+  const { phoneNo } = useContext(MyContext);
 
   const [formData, setFormData] = useState({
     name: "",
@@ -42,29 +42,33 @@ const { phoneNo } = useContext(MyContext);
       {/* Paragraphs */}
       <div className="max-w-4xl mx-auto text-gray-700 space-y-4 mb-10 text-base md:text-lg leading-relaxed">
         <p>
-          Make your stay in Dwarka comfortable and hassle-free with a booking enquiry at
-          Saurashtra Leuva Patel Samaj Bhavan, conveniently located near the Dwarka Railway
-          Station. Our clean, well-maintained rooms and friendly service provide the perfect
-          peaceful retreat while you explore the city’s spiritual and cultural wonders.
+          Make your stay in Dwarka comfortable and hassle-free with a booking
+          enquiry at Saurashtra Leuva Patel Samaj Bhavan, conveniently located
+          near the Dwarka Railway Station. Our clean, well-maintained rooms and
+          friendly service provide the perfect peaceful retreat while you
+          explore the city’s spiritual and cultural wonders.
         </p>
 
         <p>
-          Planning a visit to Dwarka? Choose Saurashtra Leuva Patel Samaj Bhavan for an
-          unforgettable stay with affordable rooms, modern amenities, and a welcoming
-          atmosphere. Whether you are here for spiritual reflection, a family vacation, or
-          simply to unwind, our team ensures you feel right at home. We are ready to assist
-          with all your booking inquiries, from room availability and pricing to special
-          offers.
+          Planning a visit to Dwarka? Choose Saurashtra Leuva Patel Samaj Bhavan
+          for an unforgettable stay with affordable rooms, modern amenities, and
+          a welcoming atmosphere. Whether you are here for spiritual reflection,
+          a family vacation, or simply to unwind, our team ensures you feel
+          right at home. We are ready to assist with all your booking inquiries,
+          from room availability and pricing to special offers.
         </p>
 
         <p>
-          Don’t wait – book your stay today at Saurashtra Leuva Patel Samaj Bhavan and enjoy
-          comfort, convenience, and spiritual tranquility in the heart of Dwarka.
+          Don’t wait – book your stay today at Saurashtra Leuva Patel Samaj
+          Bhavan and enjoy comfort, convenience, and spiritual tranquility in
+          the heart of Dwarka.
         </p>
       </div>
 
       {/* Subheading */}
-      <h3 className="text-2xl font-bold mb-8">Check Room Booking Availability</h3>
+      <h3 className="text-2xl font-bold mb-8">
+        Check Room Booking Availability
+      </h3>
 
       {/* Form */}
       <div className="bg-gray-50 p-6 rounded-2xl shadow-lg max-w-4xl mx-auto flex flex-col md:flex-row gap-4 items-center justify-between">

@@ -16,7 +16,6 @@ import BookingCTA from "./Components/BookingCTA";
 import NearbyAttractions from "./Components/NeabyAttractions";
 import FloatingIcons from "./Components/FloatingIcons";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import BookingEnquiry from "./Components/BookingEnquiry";
 import WelcomeSection from "./Components/WelcomeSection";
 import RoomsSection from "./Components/RoomSection";
 import Amenities from "./Components/HotelFacilityPage";
@@ -29,6 +28,8 @@ import EnquiryRoomBooking from "./Components/EnquiryRoomBooking";
 import WhyBookSamajBhavan from "./Components/WhyBookSamajBhawan";
 import GalleryPage from "./Pages/GalleryPage";
 import ContactUs from "./Pages/ContactUs";
+import BookingEnquiry2 from "./Components/ContactPageComp/BookingEnquiry";
+import BookingEnquiry from "./Components/BookingEnquiry";
 
 const App = () => {
   return (
@@ -54,6 +55,7 @@ const App = () => {
                 <Testimonials />
                 <EnquiryRoomBooking />
                 <WhyBookSamajBhavan />
+<BookingEnquiry2 />
 
                 {/* <AboutPage />
                 <NiharikaRetreat />
