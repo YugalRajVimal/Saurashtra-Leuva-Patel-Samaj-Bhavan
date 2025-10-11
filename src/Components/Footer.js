@@ -116,7 +116,7 @@ const Footer = () => {
                 <span className="bg-white rounded-full h-10 w-10 flex items-center justify-center">
                   <Mail className="text-[#4b2e09] w-5 h-5" />
                 </span>
-                <span>info@thesaurashtraleuvapatelsamajdwarka.com</span>
+                <span>support@saurashtrapatelsamajbhawandwarka.space</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="bg-white rounded-full h-10 w-10 flex items-center justify-center">
