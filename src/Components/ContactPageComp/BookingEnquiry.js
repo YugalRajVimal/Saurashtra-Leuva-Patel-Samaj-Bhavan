@@ -90,7 +90,7 @@ const BookingEnquiry = () => {
               <div>
                 <h3 className="font-semibold text-lg mb-1">Message Us</h3>
                 <p className="text-gray-100 text-base break-all">
-                  info@thesaurashtraleuvapatelsamajdwarka.com
+                  support@saurashtrapatelsamajbhawandwarka.space
                 </p>
               </div>
             </div>
