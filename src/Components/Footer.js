@@ -107,7 +107,7 @@ const Footer = () => {
             </h3>
             <ul className="space-y-5 text-base sm:text-lg">
               <li className="flex items-center gap-3">
-                <span className="bg-white rounded-full h-10 w-10 flex items-center justify-center">
+                <span className="bg-white shrink-0 rounded-full h-10 w-10 flex items-center justify-center">
                   <Phone className="text-[#4b2e09] w-5 h-5" />
                 </span>
                 <a href={`tel:${phoneNo}`} className="hover:underline">
@@ -115,7 +115,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="flex items-center gap-3 break-all">
-                <span className="bg-white rounded-full h-10 w-10 flex items-center justify-center">
+                <span className="bg-white shrink-0 rounded-full h-10 w-10 flex items-center justify-center">
                   <Mail className="text-[#4b2e09] w-5 h-5" />
                 </span>
                 <a href="mailto:support@saurashtrapatelsamajbhawandwarka.space" className="hover:underline">
@@ -123,7 +123,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                <span className="bg-white rounded-full h-10 w-10 flex items-center justify-center">
+                <span className="bg-white shrink-0 rounded-full h-10 w-10 flex items-center justify-center">
                   <MapPin className="text-[#4b2e09] w-5 h-5" />
                 </span>
                 <span className="text-left">
