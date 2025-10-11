@@ -72,8 +72,8 @@ const App = () => {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/gallery" element={<GalleryPage />} />
 
-          <Route path="/call" element={<Navigate replace to="/" />} />
-          <Route path="/whatsapp" element={<Navigate replace to="/" />} />
+          {/* <Route path="/call" element={<Navigate replace to="/" />} />
+          <Route path="/whatsapp" element={<Navigate replace to="/" />} /> */}
         </Routes>
         <Footer />
         <FloatingIcons />

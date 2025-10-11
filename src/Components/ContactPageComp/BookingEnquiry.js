@@ -78,7 +78,9 @@ const BookingEnquiry = () => {
               </span>
               <div>
                 <h3 className="font-semibold text-lg mb-1">Phone No.</h3>
-                <p className="text-gray-100 text-base">{phoneNo}</p>
+                <a href={`tel:${phoneNo}`} className="text-gray-100 text-base hover:underline">
+                  <p>{phoneNo}</p>
+                </a>
               </div>
             </div>
 
@@ -89,9 +91,9 @@ const BookingEnquiry = () => {
               </span>
               <div>
                 <h3 className="font-semibold text-lg mb-1">Message Us</h3>
-                <p className="text-gray-100 text-base break-all">
+                <a href="mailto:support@saurashtrapatelsamajbhawandwarka.space" className="text-gray-100 text-base break-all hover:underline">
                   support@saurashtrapatelsamajbhawandwarka.space
-                </p>
+                </a>
               </div>
             </div>
           </div>

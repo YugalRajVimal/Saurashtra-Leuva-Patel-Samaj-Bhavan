@@ -110,13 +110,17 @@ const Footer = () => {
                 <span className="bg-white rounded-full h-10 w-10 flex items-center justify-center">
                   <Phone className="text-[#4b2e09] w-5 h-5" />
                 </span>
-                <span>{phoneNo}</span>
+                <a href={`tel:${phoneNo}`} className="hover:underline">
+                  <span>{phoneNo}</span>
+                </a>
               </li>
               <li className="flex items-center gap-3 break-all">
                 <span className="bg-white rounded-full h-10 w-10 flex items-center justify-center">
                   <Mail className="text-[#4b2e09] w-5 h-5" />
                 </span>
-                <span>support@saurashtrapatelsamajbhawandwarka.space</span>
+                <a href="mailto:support@saurashtrapatelsamajbhawandwarka.space" className="hover:underline">
+                  support@saurashtrapatelsamajbhawandwarka.space
+                </a>
               </li>
               <li className="flex items-start gap-3">
                 <span className="bg-white rounded-full h-10 w-10 flex items-center justify-center">

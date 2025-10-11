@@ -10,12 +10,7 @@ const FloatingIcons = () => {
   return (
     <div className="fixed flex  items-center  justify-between p-4 w-full bottom-[10px] sm:bottom-0 left-0 z-50">
       <a
-        href="#"
-        onClick={(e) => {
-          e.preventDefault();
-          window.open(`tel:${phoneNo}`, "_blank"); // WhatsApp
-          window.location.href = "/call"; //Whatapp
-        }}
+        href={`tel:${phoneNo}`}
         className="flex justify-center items-center gap-2"
       >
         <FaPhoneAlt className="text-5xl text-white bg-black p-2   rounded-full" />
@@ -38,12 +33,12 @@ const FloatingIcons = () => {
           <FaQuestionCircle className="text-5xl text-gray-700" />
         </Link>
         <a
-          href="#"
-          onClick={(e) => {
-            e.preventDefault();
-            window.open(`https://wa.me/${phoneNo}`, "_blank"); // WhatsApp
-            window.location.href = "/whatsapp"; //Whatapp
-          }}
+          href={`https://wa.me/${phoneNo}`}
+          // onClick={(e) => {
+          //   e.preventDefault();
+          //   window.open(`https://wa.me/${phoneNo}`, "_blank"); // WhatsApp
+          //   window.location.href = "/whatsapp"; //Whatapp
+          // }}
           className="flex justify-center items-center gap-2"
         >
           <div className="relative w-fit h-fit px-4 py-1 rounded-xl bg-white shadow-xl">
